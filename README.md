@@ -96,8 +96,8 @@ In `home.html`, add templating code to display the `name`, `year`, and
 
 ### Part 2
 
-Edit the route to the home page to give `home.html` all the information
-it needs. *Hint*: You'll want to use `query_all()`.
+Edit the route to the home page to give `render_template` of `home.html` a list of
+students. *Hint*: You'll want to use `query_all()`.
 
 ### Part 3
 
