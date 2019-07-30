@@ -6,6 +6,9 @@
 </head>
 <body>
     <h1>This is the page for the student with id {{ id_number }}.</h1>
-    <link {{url_for(display_student(student_id))}} >
+    <h2>Student Name: {{student.name}}</h2>
+    <h2>Student Name: {{student.year}}</h2>
+    <h2>Lil' rat's lab finished: {{student.finished_lab}}</h2>
+    <a href="{{url_for('home')}}"><button>plz click me!!!</button></a> 
 </body>
 </html>
